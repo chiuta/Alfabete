@@ -2,7 +2,9 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versiune:** 1.0.1 · **Ultima actualizare:** 2026-10-19
+**Versiune:** 2.1.0 · **Ultima actualizare:** 2026-10-27
+
+**Stare:** stabil · **Offline:** complet (fără cereri de rețea)
 
 Limbile interfeței: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -49,7 +51,15 @@ Româna și engleza sunt scrise de mână; franceza, italiana, spaniola, portugh
 
 MIT — vezi fișierul `LICENSE` din rădăcina depozitului.
 
+## Noutăți 2.1.0 și ce nu este implementat (2026-10-27)
+
+- **Rundă cronometrată (60 s)** la fiecare antrenor (Morse, braille, fonetic, semafor, pigpen, Baudot, ASCII/binar, cifruri): butonul pornește un cronometru de 60 s, trece automat la următoarea întrebare după fiecare răspuns și la final afișează câte răspunsuri corecte ai dat și **cel mai bun rezultat** (păstrat local, în `stats`, fără o cheie nouă de stocare). Textele sunt în toate cele 8 limbi (fr/it/es/pt/hu/de automat).
+- **Audio pentru Morse**: exista deja (sunet cu WPM/Farnsworth, lumină, vibrație, export WAV) — nemodificat.
+- **Braille grad 2** (contracții): **planificat, neimplementat**. Rămâne doar gradul 1, cum este deja declarat în „Limite”; contracțiile depind de limbă și de cod (de ex. UEB pentru engleză) și nu pot fi adăugate fără o sursă oficială verificată; nu am introdus tabele din memorie.
+- Avertismentul despre cifrele clasice (didactice, **fără securitate**) rămâne neschimbat.
+
 ## Istoric
 
 - 1.0.0 — 2026-10-14: prima versiune
 - 1.0.1 — 2026-10-19: panoul se alege doar din partea dinaintea primului „&” a adresei (#panou&from=…), ca linkurile din ETER/INDICATIV să deschidă panoul corect.
+- 2.1.0 — 2026-10-27 (anterior: 1.0.1): rundă cronometrată de 60 s la antrenori; braille grad 2 rămâne planificat.

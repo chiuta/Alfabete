@@ -2,7 +2,9 @@
 
 **English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version:** 1.0.1 · **Last updated:** 2026-10-19
+**Version:** 2.1.0 · **Last updated:** 2026-10-27
+
+**Status:** stable · **Offline:** complete (no network requests)
 
 Interface languages: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -49,7 +51,15 @@ Romanian and English are written by hand; French, Italian, Spanish, Portuguese, 
 
 MIT — see the `LICENSE` file at the repository root.
 
+## News in 2.1.0 and what is not implemented (2026-10-27)
+
+- **Timed round (60 s)** on every trainer (Morse, braille, phonetic, semaphore, pigpen, Baudot, ASCII/binary, ciphers): the button starts a 60 s countdown, moves on to the next question automatically after each answer and at the end shows how many answers were correct and your **best result** (kept locally inside `stats`, with no new storage key). The texts exist in all 8 languages (fr/it/es/pt/hu/de are machine translations).
+- **Morse audio**: already existed (sound with WPM/Farnsworth, light, vibration, WAV export) — unchanged.
+- **Braille grade 2** (contractions): **planned, not implemented**. Only grade 1 remains, as already stated under "limits"; contractions depend on the language and code (e.g. UEB for English) and cannot be added without a verified official source; no tables were entered from memory.
+- The warning about the classical ciphers (didactic, **no security**) is unchanged.
+
 ## History
 
 - 1.0.0 — 2026-10-14: first release
 - 1.0.1 — 2026-10-19: the panel is chosen only from the part of the address before the first "&" (#panel&from=…), so that links from ETER/INDICATIV open the correct panel.
+- 2.1.0 — 2026-10-27 (previous: 1.0.1): 60 s timed round on the trainers; braille grade 2 remains planned.
