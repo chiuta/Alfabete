@@ -2,7 +2,7 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versiune:** 2.1.0 · **Ultima actualizare:** 2026-10-27
+**Versiune:** 2.2.0 · **Ultima actualizare:** 2026-10-27
 
 **Stare:** stabil · **Offline:** complet (fără cereri de rețea)
 
@@ -55,11 +55,19 @@ MIT — vezi fișierul `LICENSE` din rădăcina depozitului.
 
 - **Rundă cronometrată (60 s)** la fiecare antrenor (Morse, braille, fonetic, semafor, pigpen, Baudot, ASCII/binar, cifruri): butonul pornește un cronometru de 60 s, trece automat la următoarea întrebare după fiecare răspuns și la final afișează câte răspunsuri corecte ai dat și **cel mai bun rezultat** (păstrat local, în `stats`, fără o cheie nouă de stocare). Textele sunt în toate cele 8 limbi (fr/it/es/pt/hu/de automat).
 - **Audio pentru Morse**: exista deja (sunet cu WPM/Farnsworth, lumină, vibrație, export WAV) — nemodificat.
-- **Braille grad 2** (contracții): **planificat, neimplementat**. Rămâne doar gradul 1, cum este deja declarat în „Limite”; contracțiile depind de limbă și de cod (de ex. UEB pentru engleză) și nu pot fi adăugate fără o sursă oficială verificată; nu am introdus tabele din memorie.
+- **Braille grad 2** (contracții): **gradul 2 complet rămâne planificat, neimplementat** (2.2.0 adaugă doar un mod parțial de semne-cuvânt pentru engleză, vezi mai jos). Rămâne doar gradul 1 în rest, cum este deja declarat în „Limite”; contracțiile depind de limbă și de cod (de ex. UEB pentru engleză) și nu pot fi adăugate fără o sursă oficială verificată; nu am introdus tabele din memorie.
 - Avertismentul despre cifrele clasice (didactice, **fără securitate**) rămâne neschimbat.
+
+## 2.2.0: braille grad 2 parțial pentru engleză (2026-10-27)
+
+- **Grad 2 parțial, doar engleză** (bifă în Braille → Convertor): numai **semnele-cuvânt pentru cuvinte întregi** — cele 23 de semne alfabetice (but, can, do, every, from, go, have, just, knowledge, like, more, not, people, quite, rather, so, that, us, very, will, it, you, as; celula este cea a literei) și cele cinci contracții puternice ca cuvinte întregi (and ⠯, for ⠿, of ⠷, the ⠮, with ⠾). Surse: cursul NFB Braille, lecția 4 (§4.2–4.3, cu numerele punctelor) și Paths to Literacy, lecția 5 (lista semnelor alfabetice). Cuvintele în contact cu apostrof, cratimă, bară sau cifră rămân necontractate (regulile din surse pentru aceste cazuri nu au fost verificate complet). Majusculele folosesc indicatoarele obișnuite. Decodarea rămâne grad 1.
+- **Nu este UEB grad 2 complet**: fără semne de grup (ch, sh, th, ing…), forme scurte, semne inferioare, folosirea „the/and/for…” în interiorul cuvintelor sau regulile pentru cuvinte compuse. **Nu este pentru română.** Nu a fost revizuit de un transcriitor braille.
+- Teste: `tests/braille-g2.test.mjs` (48 de verificări, inclusiv toți cei 28 de vectori de semne).
+- Existau deja (nemodificate): runda cronometrată de 60 s, audio Morse.
 
 ## Istoric
 
 - 1.0.0 — 2026-10-14: prima versiune
 - 1.0.1 — 2026-10-19: panoul se alege doar din partea dinaintea primului „&” a adresei (#panou&from=…), ca linkurile din ETER/INDICATIV să deschidă panoul corect.
 - 2.1.0 — 2026-10-27 (anterior: 1.0.1): rundă cronometrată de 60 s la antrenori; braille grad 2 rămâne planificat.
+- 2.2.0 — 2026-10-27 (anterior: 2.1.0): braille grad 2 parțial pentru engleză (doar semne-cuvânt).

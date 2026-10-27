@@ -2,7 +2,7 @@
 
 **English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version:** 2.1.0 · **Last updated:** 2026-10-27
+**Version:** 2.2.0 · **Last updated:** 2026-10-27
 
 **Status:** stable · **Offline:** complete (no network requests)
 
@@ -55,11 +55,19 @@ MIT — see the `LICENSE` file at the repository root.
 
 - **Timed round (60 s)** on every trainer (Morse, braille, phonetic, semaphore, pigpen, Baudot, ASCII/binary, ciphers): the button starts a 60 s countdown, moves on to the next question automatically after each answer and at the end shows how many answers were correct and your **best result** (kept locally inside `stats`, with no new storage key). The texts exist in all 8 languages (fr/it/es/pt/hu/de are machine translations).
 - **Morse audio**: already existed (sound with WPM/Farnsworth, light, vibration, WAV export) — unchanged.
-- **Braille grade 2** (contractions): **planned, not implemented**. Only grade 1 remains, as already stated under "limits"; contractions depend on the language and code (e.g. UEB for English) and cannot be added without a verified official source; no tables were entered from memory.
+- **Braille grade 2** (contractions): **full grade 2 remains planned, not implemented** (2.2.0 adds only a partial English wordsigns mode, see below). Only grade 1 remains elsewhere, as already stated under "limits"; contractions depend on the language and code (e.g. UEB for English) and cannot be added without a verified official source; no tables were entered from memory.
 - The warning about the classical ciphers (didactic, **no security**) is unchanged.
+
+## 2.2.0: partial English braille grade 2 (2026-10-27)
+
+- **Partial grade 2, English only** (checkbox in Braille → Converter): only **whole-word wordsigns** — the 23 alphabetic wordsigns (but, can, do, every, from, go, have, just, knowledge, like, more, not, people, quite, rather, so, that, us, very, will, it, you, as; the cell is the letter's cell) and the five strong contractions as whole words (and ⠯, for ⠿, of ⠷, the ⠮, with ⠾). Sources: NFB Braille course, lesson 4 (§4.2–4.3, with dot numbers) and Paths to Literacy, lesson 5 (alphabetic wordsigns list). Words in contact with an apostrophe, hyphen, slash or digit are left uncontracted (the sources' rules for those cases were not fully verified). Capitals use the usual indicators. Decoding stays grade 1.
+- **This is NOT full UEB grade 2**: no groupsigns (ch, sh, th, ing…), shortforms, lower signs, word-part use of "the/and/for…" or the rules about compound words. It is **not for Romanian**. It was not reviewed by a braille transcriber.
+- Tests: `tests/braille-g2.test.mjs` (48 checks, including all 28 sign vectors).
+- Already present (unchanged): timed 60 s round, Morse audio.
 
 ## History
 
 - 1.0.0 — 2026-10-14: first release
 - 1.0.1 — 2026-10-19: the panel is chosen only from the part of the address before the first "&" (#panel&from=…), so that links from ETER/INDICATIV open the correct panel.
 - 2.1.0 — 2026-10-27 (previous: 1.0.1): 60 s timed round on the trainers; braille grade 2 remains planned.
+- 2.2.0 — 2026-10-27 (previous: 2.1.0): partial English braille grade 2 (wordsigns only).
