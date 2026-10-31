@@ -2,7 +2,7 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versiune:** 2.2.0 · **Ultima actualizare:** 2026-10-27
+**Versiune:** 2.3.0 · **Ultima actualizare:** 2026-10-31
 
 **Stare:** stabil · **Offline:** complet (fără cereri de rețea)
 
@@ -13,6 +13,10 @@ Alfabete este o aplicație offline pentru alfabete și coduri: pentru fiecare co
 ![captură](screenshot.ro.png)
 
 **Live:** https://chiuta.github.io/apps/Alfabete/
+
+## Nou în 2.0.0: Traducătorul
+
+Panoul „Traducător” traduce un singur mesaj, în timp real, în Morse, braille, semafor, Baudot, alfabet fonetic (la alegere) și pigpen, cu figuri SVG, copiere pe cod sau pentru toate codurile, redare Morse cu sunet și clipire și o **fișă tipăribilă a mesajului** (toate codurile, generată local). Caracterele fără corespondent într-un cod sunt raportate pe cod; conversiile inverse rămân în panourile fiecărui cod.
 
 ## Cum se folosește
 
@@ -37,7 +41,7 @@ Export/import de date: `.fff.json` (format `fff-bundle`, schema 1). Ieșiri: WAV
 
 ## Tehnic
 
-Un singur fișier `index.html`, JS și CSS inline, CSP strict cu hash, fără resurse externe. Teste: `node tests/test.mjs` (Playwright; 44 de teste: vectori cunoscuți, dus-întors pentru fiecare cod, durate Morse calculate și măsurate pe audio randat/clipire, axe 0 în ambele teme, layout la 360 și 1280 px).
+Un singur fișier `index.html`, JS și CSS inline, CSP strict cu hash, fără resurse externe. Teste: `node tests/test.mjs` (Playwright; 53 de teste: vectori cunoscuți, dus-întors pentru fiecare cod, durate Morse calculate și măsurate pe audio randat/clipire, axe 0 în ambele teme, layout la 360 și 1280 px).
 
 ## Terți
 

@@ -1,5 +1,13 @@
 # Jurnal de modificări — Alfabete
 
+## 2.3.0 — 2026-10-31
+
+Anterior: 2.2.0. Îmbină linia din hub (2.0.0, 2026-10-26) cu linia acestui depozit, ca aplicația să poată trece pe origine proprie fără pierderi.
+
+- Din hub: modulele kit `store` și `dialog` (stocare cu prefix de slug) și panoul nou „Traducător” (13 panouri în navigare).
+- Păstrat din depozit: toate funcțiile 2.1–2.2.
+- Teste actualizate pentru versiune/număr de panouri; testele axe au rulat cu axe-core 4.10.2, iar verificările care cer `/home/fff-kit` nu au rulat aici.
+
 ## 2.2.0 — 2026-10-27 (anterior: 2.1.0)
 
 - Braille grad 2 PARȚIAL, doar engleză (bifă în Convertor): 23 de semne-cuvânt alfabetice + and/for/of/the/with ca cuvinte întregi, din NFB lecția 4 și Paths to Literacy lecția 5. Cuvintele lipite de apostrof/cratimă/bară/cifră rămân necontractate. Decodarea rămâne grad 1. Texte în 8 limbi (fr/it/es/pt/hu/de: traducere automată).
