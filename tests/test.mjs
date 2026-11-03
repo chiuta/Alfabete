@@ -11,7 +11,7 @@ const {chromium} = require('playwright');
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const APP = path.resolve(HERE, '..', 'index.html');
 const URL_ = pathToFileURL(APP).href;
-const AXE = process.env.AXE_PATH || '/tmp/claude-0/-home-claude/78529928-3825-51c3-b9bd-0e81655ab6bc/scratchpad/sweep/node_modules/axe-core/axe.min.js';
+const AXE = process.env.AXE_PATH || process.env.FFF_AXE || '/tmp/claude-0/-home-claude/78529928-3825-51c3-b9bd-0e81655ab6bc/scratchpad/sweep/node_modules/axe-core/axe.min.js';
 const CSP = await import('file:///home/claude/chiuta.github.io/fff-kit/lib/csp.mjs');
 
 const browser = await chromium.launch({executablePath: '/opt/pw-browsers/chromium', args: ['--autoplay-policy=no-user-gesture-required']});
@@ -68,7 +68,7 @@ await test('pornire: 0 erori, 0 rețea, 0 CSP, meta, versiune, lang', async () =
   const scr = [...html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/g)].filter(m => !/\bsrc=/.test(m[1]) && !/type="application\/json"/.test(m[1]));
   eq(scr.length, 3, 'kit + pwa + aplicație'); eq((dirs['script-src'].match(/sha256-/g) || []).length, 3, 'hash-uri');
   for (const m of scr) ok(dirs['script-src'].includes("'sha256-" + crypto.createHash('sha256').update(m[2], 'utf8').digest('base64') + "'"), 'hash lipsă: ' + m[2].slice(0, 30));
-  for (const [mod, a] of [['build.mjs', 'check'], ['pwa/pwa.mjs', 'check']]) { const r = spawnSync(process.execPath, [path.resolve(HERE, '../../../fff-kit', mod), a, path.resolve(HERE, '..')], {encoding: 'utf8'}); ok(r.status === 0, mod + ' check: ' + r.stdout + r.stderr); }
+  for (const [mod, a] of [['build.mjs', 'check'], ['pwa/pwa.mjs', 'check']]) { const r = spawnSync(process.execPath, [path.resolve(process.env.FFF_KIT || path.resolve(HERE, '../../../fff-kit'), mod), a, path.resolve(HERE, '..')], {encoding: 'utf8'}); ok(r.status === 0, mod + ' check: ' + r.stdout + r.stderr); }
   ok(!/https?:\/\/(?!www\.w3\.org)/.test(html.replace(/<meta[^>]*>/g, '')) || true);
   await ctx.close();
 });
