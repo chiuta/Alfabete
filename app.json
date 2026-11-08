@@ -2,8 +2,8 @@
   "schema": 1,
   "slug": "alfabete",
   "name": "Alfabete",
-  "version": "2.3.1",
-  "updated": "2026-11-07",
+  "version": "2.3.2",
+  "updated": "2026-11-08",
   "description": "Alfabete și coduri: Morse, braille, alfabete fonetice, semafor, pigpen, Baudot, ASCII/Base64, cifruri clasice. Referință, convertor, antrenor, fișe tipăribile. Local, offline, fără cont.",
   "egress": [],
   "permissions": [
@@ -12,8 +12,8 @@
     "localStorage"
   ],
   "storageKeys": [],
-  "sizeBytes": 650336,
-  "sha256": "ac6bc2dc11d09adfb8980874117c9fa4573d4e87a61913fcf4653d9555b4ad0e",
+  "sizeBytes": 664021,
+  "sha256": "2602da1c6d188daff2df7a83c6233720bf56acf1a163137d665cd7d0b218fd92",
   "csp": {
     "present": true,
     "directives": {
@@ -55,6 +55,7 @@
       "core",
       "store",
       "dialog",
+      "exit",
       "label",
       "bundle",
       "qr",
@@ -64,11 +65,12 @@
     ]
   },
   "kit": {
-    "version": "1.2.1",
+    "version": "1.3.0",
     "modules": [
       "core",
       "store",
       "dialog",
+      "exit",
       "label",
       "bundle",
       "qr",
