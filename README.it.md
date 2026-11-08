@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · **Italiano** · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versione:** 2.3.2 · **Ultimo aggiornamento:** 2026-11-08
+**Versione:** 2.3.3 · **Ultimo aggiornamento:** 2026-11-08
 
 Lingue dell'interfaccia: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -18,7 +18,7 @@ Scegli un pannello dalla barra in alto, poi una sottoscheda: Riferimento, Conver
 
 ## Cosa NON fa, e limiti
 
-- Braille: solo **grado 1** (lettera per lettera). Il grado 2 (contrazioni) non è implementato e non viene dichiarato. Le lettere rumene (ă â î ș ț) non sono state verificate rispetto a una fonte ufficiale: sono offerti profili selezionabili (di lavoro, riduzione alla lettera base, personalizzato), indicati come tali. La punteggiatura varia da una lingua all'altra.
+- Braille: **grado 1** (lettera per lettera) più un **grado 2 parziale, solo inglese** (segni-parola per parole intere; dal 2.2.0, facoltativo) — non il grado 2 UEB completo e non disponibile per altre lingue (dettagli al 2.2.0). Le lettere rumene (ă â î ș ț) non sono state verificate rispetto a una fonte ufficiale: sono offerti profili selezionabili (di lavoro, riduzione alla lettera base, personalizzato), indicati come tali. La punteggiatura varia da una lingua all'altra.
 - L'alfabeto fonetico rumeno, i diacritici Morse e le varianti nazionali non sono standardizzati; sono contrassegnati «non ufficiale»/«variante». Quelli ITU/NATO e i segni ITU-R M.1677-1 sono quelli standard.
 - Alfabeto manuale: **nessuna figura** (non disegniamo mani approssimative); solo brevi descrizioni e un rimando alle fonti ufficiali. Le descrizioni ASL e il significato dei prosegni compaiono in inglese al di fuori delle lingue ro/en.
 - Semaforo: la tabella è stata verificata incrociando una fonte pubblica, ma merita di essere controllata con una fonte ufficiale; i segni per le cifre e per l'annullamento non sono disegnati.

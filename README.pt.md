@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · **Português** · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versão:** 2.3.2 · **Última atualização:** 2026-11-08
+**Versão:** 2.3.3 · **Última atualização:** 2026-11-08
 
 Idiomas da interface: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -18,7 +18,7 @@ Escolha um painel na barra superior e, depois, um separador secundário: Referê
 
 ## O que NÃO faz e limites
 
-- Braille: apenas **grau 1** (letra a letra). O grau 2 (contrações) não está implementado e não é afirmado. As letras romenas (ă â î ș ț) não foram verificadas face a uma fonte oficial: são oferecidos perfis selecionáveis (de trabalho, redução à letra base, personalizado), assinalados como tal. A pontuação varia de língua para língua.
+- Braille: **grau 1** (letra a letra) mais um **grau 2 parcial, apenas inglês** (sinais de palavra para palavras inteiras; desde 2.2.0, opcional) — não é o grau 2 UEB completo e não existe para outros idiomas (detalhes em 2.2.0). As letras romenas (ă â î ș ț) não foram verificadas face a uma fonte oficial: são oferecidos perfis selecionáveis (de trabalho, redução à letra base, personalizado), assinalados como tal. A pontuação varia de língua para língua.
 - O alfabeto fonético romeno, os diacríticos Morse e as variantes nacionais não estão normalizados; são assinalados como «não oficial»/«variante». Os da UIT/OTAN e os sinais da UIT-R M.1677-1 são os padrão.
 - Dactilologia: **sem figuras** (não desenhamos mãos aproximadas); apenas descrições breves e a remissão para fontes oficiais. As descrições ASL e o significado dos prosinais aparecem em inglês fora dos idiomas ro/en.
 - Semáforo: a tabela foi confrontada com uma fonte pública, mas convém verificá-la numa fonte oficial; os sinais para algarismos e anulação não estão desenhados.

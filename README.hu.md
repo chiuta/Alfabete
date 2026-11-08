@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · **Magyar**
 
-**Verzió:** 2.3.2 · **Utolsó frissítés:** 2026-11-08
+**Verzió:** 2.3.3 · **Utolsó frissítés:** 2026-11-08
 
 A felület nyelvei: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -18,7 +18,7 @@ Válassz egy panelt a felső sávból, majd egy almenüt: Referencia, Átalakít
 
 ## Mit NEM tud, és korlátok
 
-- Braille: csak **1. fokozat** (betűről betűre). A 2. fokozat (rövidítések) nincs megvalósítva, és nem is állítjuk. A román betűket (ă â î ș ț) nem vetettük össze hivatalos forrással: választható profilok állnak rendelkezésre (munkaprofil, visszavezetés az alapbetűre, egyéni), ennek megfelelően megjelölve. Az írásjelek nyelvenként eltérnek.
+- Braille: **1. fokozat** (betűről betűre) plusz **részleges 2. fokozat, csak angolul** (egész szavak szójelei; 2.2.0 óta, opcionális) — nem a teljes UEB 2. fokozat, és más nyelvekre nem érhető el (részletek a 2.2.0-nál). A román betűket (ă â î ș ț) nem vetettük össze hivatalos forrással: választható profilok állnak rendelkezésre (munkaprofil, visszavezetés az alapbetűre, egyéni), ennek megfelelően megjelölve. Az írásjelek nyelvenként eltérnek.
 - A román fonetikus ábécé, a Morse-ékezetek és a nemzeti változatok nem szabványosak; „nem hivatalos”/„változat” jelöléssel szerepelnek. Az ITU/NATO-s ábécék és az ITU-R M.1677-1 jelei a szabványosak.
 - Ujjábécé: **nincsenek ábrák** (nem rajzolunk hozzávetőleges kezeket); csak rövid leírások és hivatkozás hivatalos forrásokra. Az ASL-leírások és a prosignok jelentése a ro/en nyelveken kívül angolul jelenik meg.
 - Szemafor: a táblázatot egy nyilvános forrással vetettük össze, de érdemes hivatalos forrással is ellenőrizni; a számjegyek és a törlés jelei nincsenek lerajzolva.

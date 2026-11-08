@@ -1,5 +1,8 @@
 # Jurnal de modificări — Alfabete
 
+## 2.3.3 — 2026-11-08
+Doar documentare: README-urile (8 limbi) spun acum că gradul 2 e parțial implementat (doar engleză, semne-cuvânt, din 2.2.0), nu «neimplementat».
+
 ## 2.3.0 — 2026-11-02 (reîmprospătare kit)
 
 - Nou (kit): **Sincronizare între dispozitive** (`FFF.sync`) — în dialogul «Transparență» (clic pe versiune → Copie de siguranță): conectezi două dispozitive direct (WebRTC, cod/QR, fără server și fără cont) și își schimbă datele aplicației; cea mai recentă valoare câștigă, secretele (chei API, parole) nu se trimit, ștergerile nu se propagă. Aplicarea trece prin importul kitului (confirmare, chei permise, rollback).

@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · **Español** · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versión:** 2.3.2 · **Última actualización:** 2026-11-08
+**Versión:** 2.3.3 · **Última actualización:** 2026-11-08
 
 Idiomas de la interfaz: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -18,7 +18,7 @@ Elige un panel en la barra superior y luego una subpestaña: Referencia, Convers
 
 ## Lo que NO hace y límites
 
-- Braille: solo **grado 1** (letra por letra). El grado 2 (contracciones) no está implementado y no se afirma lo contrario. Las letras rumanas (ă â î ș ț) no se han verificado con una fuente oficial: se ofrecen perfiles seleccionables (de trabajo, reducción a la letra base, personalizado), marcados como tales. La puntuación varía entre idiomas.
+- Braille: **grado 1** (letra por letra) más un **grado 2 parcial, solo inglés** (signos de palabra para palabras completas; desde 2.2.0, opcional) — no es el grado 2 UEB completo y no existe para otros idiomas (detalles en 2.2.0). Las letras rumanas (ă â î ș ț) no se han verificado con una fuente oficial: se ofrecen perfiles seleccionables (de trabajo, reducción a la letra base, personalizado), marcados como tales. La puntuación varía entre idiomas.
 - El alfabeto fonético rumano, los diacríticos Morse y las variantes nacionales no están normalizados; se marcan como «no oficial»/«variante». Los de la UIT/OTAN y los signos de la UIT-R M.1677-1 son los estándar.
 - Dactilología: **sin figuras** (no dibujamos manos aproximadas); solo descripciones breves y una remisión a las fuentes oficiales. Las descripciones ASL y el significado de los prosignos aparecen en inglés fuera de los idiomas ro/en.
 - Semaforía: la tabla se contrastó con una fuente pública, pero conviene verificarla con una fuente oficial; los signos de los números y de anulación no están dibujados.

@@ -2,7 +2,7 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versiune:** 2.3.2 · **Ultima actualizare:** 2026-11-08
+**Versiune:** 2.3.3 · **Ultima actualizare:** 2026-11-08
 
 **Stare:** stabil · **Offline:** complet (fără cereri de rețea)
 
@@ -24,7 +24,7 @@ Alege un panou din bara de sus, apoi o subfilă: Referință, Convertor, antreno
 
 ## Ce NU face și limite
 
-- Braille: doar **grad 1** (literă cu literă). Gradul 2 (contracții) nu este implementat și nu este pretins. Literele românești (ă â î ș ț) nu au fost verificate față de o sursă oficială: sunt oferite profiluri selectabile (de lucru, pliere la litera de bază, personalizat), marcate ca atare. Punctuația variază între limbi.
+- Braille: **grad 1** (literă cu literă) plus **grad 2 parțial, doar engleză** (semne-cuvânt pentru cuvinte întregi; din 2.2.0, opțional) — nu este UEB grad 2 complet și nu există pentru alte limbi (detalii la 2.2.0). Literele românești (ă â î ș ț) nu au fost verificate față de o sursă oficială: sunt oferite profiluri selectabile (de lucru, pliere la litera de bază, personalizat), marcate ca atare. Punctuația variază între limbi.
 - Alfabetul fonetic românesc, diacriticele Morse și variantele naționale nu sunt standardizate; sunt marcate „neoficial”/„variantă”. Cele ITU/NATO și semnele ITU-R M.1677-1 sunt cele standard.
 - Dactilema: **fără figuri** (nu desenăm mâini aproximative); doar descrieri scurte și trimitere la surse oficiale. Descrierile ASL și sensul prosign-urilor apar în engleză în afara limbilor ro/en.
 - Semaforul: tabelul a fost verificat încrucișat cu o sursă publică, dar merită verificat cu o sursă oficială; semnele pentru cifre și anulare nu sunt desenate.

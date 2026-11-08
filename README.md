@@ -2,7 +2,7 @@
 
 **English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version:** 2.3.2 · **Last updated:** 2026-11-08
+**Version:** 2.3.3 · **Last updated:** 2026-11-08
 
 **Status:** stable · **Offline:** complete (no network requests)
 
@@ -24,7 +24,7 @@ Pick a panel from the top bar, then a sub-tab: Reference, Converter, trainer, Pr
 
 ## What it does NOT do, and limits
 
-- Braille: only **grade 1** (letter by letter). Grade 2 (contractions) is not implemented and is not claimed. The Romanian letters (ă â î ș ț) have not been checked against an official source: selectable profiles are offered (working, fold to base letter, custom), labelled as such. Punctuation varies between languages.
+- Braille: **grade 1** (letter by letter) plus a **partial grade 2, English only** (whole-word wordsigns; since 2.2.0, optional) — not full UEB grade 2, and not available for other languages (details under 2.2.0). The Romanian letters (ă â î ș ț) have not been checked against an official source: selectable profiles are offered (working, fold to base letter, custom), labelled as such. Punctuation varies between languages.
 - The Romanian phonetic alphabet, Morse diacritics and national variants are not standardized; they are marked "unofficial"/"variant". The ITU/NATO ones and the ITU-R M.1677-1 signs are the standard ones.
 - Fingerspelling: **no figures** (we do not draw approximate hands); only short descriptions and a pointer to official sources. The ASL descriptions and the meaning of prosigns appear in English outside the ro/en languages.
 - Semaphore: the table was cross-checked against a public source, but it deserves checking against an official source; the signs for numerals and cancel are not drawn.

@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · **Deutsch** · [Magyar](README.hu.md)
 
-**Version:** 2.3.2 · **Zuletzt aktualisiert:** 2026-11-08
+**Version:** 2.3.3 · **Zuletzt aktualisiert:** 2026-11-08
 
 Oberflächensprachen: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -18,7 +18,7 @@ Wähle in der oberen Leiste ein Feld und dann einen Unterreiter: Referenz, Konve
 
 ## Was die App NICHT kann, und Grenzen
 
-- Braille: nur **Stufe 1** (Buchstabe für Buchstabe). Stufe 2 (Kürzungen) ist nicht implementiert und wird auch nicht behauptet. Die rumänischen Buchstaben (ă â î ș ț) wurden nicht anhand einer offiziellen Quelle überprüft: Es werden wählbare Profile angeboten (Arbeitsprofil, Zurückführung auf den Grundbuchstaben, benutzerdefiniert), als solche gekennzeichnet. Die Zeichensetzung unterscheidet sich zwischen den Sprachen.
+- Braille: **Stufe 1** (Buchstabe für Buchstabe) plus eine **teilweise Stufe 2, nur Englisch** (Wortzeichen für ganze Wörter; seit 2.2.0, optional) — nicht die vollständige UEB-Stufe 2 und nicht für andere Sprachen verfügbar (Details unter 2.2.0). Die rumänischen Buchstaben (ă â î ș ț) wurden nicht anhand einer offiziellen Quelle überprüft: Es werden wählbare Profile angeboten (Arbeitsprofil, Zurückführung auf den Grundbuchstaben, benutzerdefiniert), als solche gekennzeichnet. Die Zeichensetzung unterscheidet sich zwischen den Sprachen.
 - Das rumänische Buchstabieralphabet, Morse-Diakritika und nationale Varianten sind nicht genormt; sie sind als „inoffiziell“/„Variante“ gekennzeichnet. Die ITU/NATO-Alphabete und die Zeichen nach ITU-R M.1677-1 sind die Standards.
 - Fingeralphabet: **keine Abbildungen** (wir zeichnen keine ungefähren Hände); nur kurze Beschreibungen und der Verweis auf offizielle Quellen. Die ASL-Beschreibungen und die Bedeutung der Prosigns erscheinen außerhalb der Sprachen ro/en auf Englisch.
 - Winkeralphabet: Die Tabelle wurde mit einer öffentlichen Quelle abgeglichen, sollte aber mit einer offiziellen Quelle überprüft werden; die Zeichen für Ziffern und Aufhebung sind nicht gezeichnet.

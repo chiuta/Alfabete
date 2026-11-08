@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · **Français** · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version :** 2.3.2 · **Dernière mise à jour :** 2026-11-08
+**Version :** 2.3.3 · **Dernière mise à jour :** 2026-11-08
 
 Langues de l'interface : **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -18,7 +18,7 @@ Choisis un panneau dans la barre du haut, puis un sous-onglet : Référence, Con
 
 ## Ce que l'application NE fait PAS, et ses limites
 
-- Braille : uniquement le **degré 1** (lettre par lettre). Le degré 2 (contractions) n'est pas implémenté et n'est pas revendiqué. Les lettres roumaines (ă â î ș ț) n'ont pas été vérifiées par rapport à une source officielle : des profils sélectionnables sont proposés (de travail, repli sur la lettre de base, personnalisé), signalés comme tels. La ponctuation varie d'une langue à l'autre.
+- Braille : **degré 1** (lettre par lettre) plus un **degré 2 partiel, anglais uniquement** (mots-signes de mots entiers ; depuis 2.2.0, facultatif) — pas le degré 2 UEB complet, et indisponible pour les autres langues (détails sous 2.2.0). Les lettres roumaines (ă â î ș ț) n'ont pas été vérifiées par rapport à une source officielle : des profils sélectionnables sont proposés (de travail, repli sur la lettre de base, personnalisé), signalés comme tels. La ponctuation varie d'une langue à l'autre.
 - L'alphabet phonétique roumain, les diacritiques Morse et les variantes nationales ne sont pas normalisés ; ils sont marqués « non officiel »/« variante ». Ceux de l'UIT/OTAN et les signes de l'UIT-R M.1677-1 sont les normes.
 - Dactylologie : **pas de figures** (nous ne dessinons pas de mains approximatives) ; seulement de courtes descriptions et un renvoi aux sources officielles. Les descriptions ASL et le sens des prosignes apparaissent en anglais hors des langues ro/en.
 - Sémaphore : le tableau a été recoupé avec une source publique, mais mérite d'être vérifié auprès d'une source officielle ; les signes pour les chiffres et l'annulation ne sont pas dessinés.
