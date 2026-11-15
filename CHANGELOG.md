@@ -1,5 +1,9 @@
 # Jurnal de modificări — Alfabete
 
+## 2.3.8 — 2026-11-15
+
+- Nou: texturi fractale hiper-detaliate (fff-texturi 1.1.2) — fundalul și suprafețele mari (carduri, panouri, antete, butoane; filele și dialogurile ascunse la încărcare, când se deschid) primesc un material generat local (WebGL2, fără rețea și fără imagini), care se repetă fără cusătură; culorile aplicației rămân ale ei. Se oprește din dialogul „Transparență” sau cu `?notex=1`.
+
 ## 2.3.3 — 2026-11-08
 Doar documentare: README-urile (8 limbi) spun acum că gradul 2 e parțial implementat (doar engleză, semne-cuvânt, din 2.2.0), nu «neimplementat».
 
